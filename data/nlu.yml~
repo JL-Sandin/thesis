@@ -1,0 +1,141 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: buy_dress
+  examples: |
+   - I want to buy this dress
+   - How much for this dress?
+   - I would like to purchase this item
+
+- intent: buy_face_mask
+  examples: |
+   - This face mask is perfect, how much?
+   - Just what we need for girls night, buy face mask
+   - How expensive is this face mask?
+
+- intent: plane_tickets
+  examples: |
+   - I need to fly from MCO to MAD
+   - Can you help me with flights from JFK to LAX
+   - I want to vacation in MLE
+
+- intent: plane_tickets_dates_round
+  examples: |
+   - From november 19 to december 1
+   - February 1 to February 2
+   - March 2nd to April 5th
+
+- intent: plane_tickets_date_oneway
+  examples: |
+   - December 24
+   - July 3
+   - August 20th
+
+- intent: plane_tickets_round
+  examples: |
+   - Roundtrip
+   - Both ways
+
+- intent: plane_tickets_oneway
+  examples: |
+   - One way
+   - Outgoing
+
+- intent: book_hotel
+  examples: |
+   - I want to book a hotel
+   - Reserve hotel
+
+
+- intent: days_hotel
+  examples: |
+   - I am planning from October 23 to October 25
